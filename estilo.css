@@ -1,2 +1,40 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+h1{
+  font-size: 36px;
+  font-family: Ravie;
+  color: #e90c0c;
+}
+
+#cabecalho h2 span{
+  float: inherit;
+  font-size: 24px;
+  color: #333;
+  color: #d027aa;
+}
+
+h3{
+  font-size: 18px;
+  font-family: Verdana;
+  font-weight: bold;
+  color: #333;
+}
+
+#conteudo{
+  font-size: 14px;
+  font-family: Verdana;
+  color: #333;
+}
+
+#recipiente{
+  background-image: linear-gradient(to bottom, #f6f1b2 ,#4599b2);
+  width: 800px;
+  margin:auto;
+}
+
+#cardapio{
+  border: 1px solid #aac0ae;
+  margin-left: 154px;
+  margin-bottom: 71px;
+}
