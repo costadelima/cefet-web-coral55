@@ -7,18 +7,18 @@ h1{
   color: #e90c0c;
 }
 
-#cabecalho h2 span{
-  float: inherit;
-  font-size: 24px;
-  color: #333;
-  color: #d027aa;
-}
-
 h3{
   font-size: 18px;
   font-family: Verdana;
   font-weight: bold;
   color: #333;
+}
+
+#cabecalho h2 span{
+  float: inherit;
+  font-size: 24px;
+  color: #333;
+  color: #d027aa;
 }
 
 #conteudo{
@@ -33,8 +33,23 @@ h3{
   margin:auto;
 }
 
+#lateral{
+  float: left;
+  padding-right: -10px;
+  margin-right: -85px;
+}
+
 #cardapio{
   border: 1px solid #aac0ae;
   margin-left: 154px;
+  margin-right: 0px;
   margin-bottom: 71px;
+  padding-right: 15px;
+  /* clear: both; */
+}
+.item{
+  float: left;
+}
+.preco{
+  float: right;
 }
